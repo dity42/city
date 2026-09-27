@@ -1,0 +1,15 @@
+# city.toml — project configuration for city
+# https://github.com/dity/city
+
+[project]
+name = "{{PROJECT_NAME}}"
+version = "0.1.0"
+description = ""
+authors = [
+    { name = "{{AUTHOR_NAME}}", email = "{{AUTHOR_EMAIL}}" }
+]
+
+[build]
+path = "src"
+output = "build"
+flags = ["-O2", "-Wall", "-Wextra"]

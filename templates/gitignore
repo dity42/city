@@ -1,0 +1,91 @@
+# Prerequisites
+*.d
+
+# Object files
+*.o
+*.obj
+*.ko
+*.elf
+*.slo
+*.lo
+
+# Precompiled headers
+*.gch
+*.pch
+
+# Linker output
+*.ilk
+*.map
+*.exp
+
+# Debug files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+*.dwo
+
+# Static libraries
+*.lib
+*.a
+*.la
+*.lai
+
+# Dynamic libraries
+*.dll
+*.so
+*.so.*
+*.dylib
+
+# Executables
+*.exe
+*.out
+*.app
+*.i*86
+*.x86_64
+*.hex
+
+# Kernel module compile results
+*.mod*
+*.cmd
+.tmp_versions/
+modules.order
+Module.symvers
+Mkfile.old
+dkms.conf
+
+# Fortran module files
+*.mod
+*.smod
+
+# Build directories
+build/
+Build/
+build-*/
+dist/
+out/
+
+# CMake generated files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+
+# Package managers
+vcpkg_installed/
+
+# Test output & cache
+Testing/
+.cache/
+
+# Temporary files
+*.tmp
+*.log
+*.bak
+*.swp
+*~
+
+# Editor directories
+.vscode/
+.idea/

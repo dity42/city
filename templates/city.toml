@@ -8,7 +8,7 @@ authors = [
 
 [build]
 system = "{{BUILD_SYSTEM}}"
-compiler = "{{COMPILER}}"
+language = "{{LANGUAGE}}"
 path = "src"
 output = "build"
 flags = ["-O2", "-Wall", "-Wextra"]

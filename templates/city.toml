@@ -6,9 +6,13 @@ authors = [
     { name = "{{AUTHOR_NAME}}", email = "{{AUTHOR_EMAIL}}" }
 ]
 
+[dependencies]
+libs = []
+
 [build]
-system = "{{BUILD_SYSTEM}}"
 language = "{{LANGUAGE}}"
+std = "{{STD}}"
+system = "{{BUILD_SYSTEM}}"
 path = "src"
 output = "build"
 flags = ["-O2", "-Wall", "-Wextra"]

@@ -12,7 +12,12 @@ libs = []
 [build]
 language = "{{LANGUAGE}}"
 std = "{{STD}}"
+entry = "{{ENTRY_POINT}}"
 system = "{{BUILD_SYSTEM}}"
-path = "src"
+sources = ["src"]
 output = "build"
-flags = ["-O2", "-Wall", "-Wextra"]
+
+[build.flags]
+common = ["-Wall", "-Wextra"]
+debug = ["-g", "-O0"]
+release = ["-O2", "-DNDEBUG"]
